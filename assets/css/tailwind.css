@@ -1,0 +1,23 @@
+/*
+ * Andreas Lagocki - Photographer
+ *
+ * Copyright (C) Andreas Lagocki  - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly
+ *  prohibited Proprietary and confidential.
+ *
+ * @author Andreas Lagocki <andreas@lagocki.de>
+ */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.submit-button {
+    @apply border-2 border-slate-300 text-slate-500 hover:text-white hover:bg-red-900 rounded-lg px-2 py-9;
+}
+
+.cancel-button {
+    @apply border-2 border-slate-300 bg-slate-900 text-white hover:bg-slate-500 rounded-lg px-2 py-1;
+}

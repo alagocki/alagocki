@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--
+  ~ Andreas Lagocki - Photographer
+  ~
+  ~ Copyright (C) Andreas Lagocki  - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly
+  ~  prohibited Proprietary and confidential.
+  ~
+  ~ @author Andreas Lagocki <andreas@lagocki.de>
+  -->
+
 <!-- https://phpunit.readthedocs.io/en/latest/configuration.html -->
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"

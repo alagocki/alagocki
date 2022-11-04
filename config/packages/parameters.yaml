@@ -1,0 +1,3 @@
+parameters:
+  # csv
+  moll.storage.csv: '%kernel.project_dir%/public/storage/csv/'

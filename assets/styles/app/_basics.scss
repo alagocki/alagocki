@@ -1,0 +1,157 @@
+/*!
+ * Andreas Lagocki - Photographer
+ *
+ * Copyright (C) Andreas Lagocki  - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly
+ *  prohibited Proprietary and confidential.
+ *
+ * @author Andreas Lagocki <andreas@lagocki.de>
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    padding-top: 3.5rem;
+}
+
+// Navbar
+.navbar {
+    padding: 10px;
+}
+
+.user-info {
+    position: fixed;
+    right: 10px;
+}
+
+// Body
+.main {
+    padding: 20px 10px;
+}
+
+// Footer
+.app-footer {
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.action-link {
+    position: relative;
+    top: 20px;
+    font-size: 10px;
+    text-decoration: underline;
+    a {
+        color: #000000;
+    }
+}
+
+.border-right {
+    border-right: 1px solid #000000;
+}
+
+.margin-10-0 {
+    margin: 10px 0;
+}
+
+// Card Actions
+.card-header {
+    > i {
+        margin-right: $spacer / 2;
+    }
+    .card-actions {
+        position: absolute;
+        top: 0;
+        right: 0;
+        //height: inherit;
+
+        &> a, button, div.dropdown {
+            display: block;
+            float: left;
+            width: 50px;
+            padding: $card-spacer-y 0;
+            margin: 0 !important;
+            color: $body-color;
+            text-align: center;
+            background: transparent;
+            border: 0;
+            border-left: 1px solid $border-color;
+            box-shadow: 0;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            [class^="icon-"], [class*=" icon-"] {
+                display: inline-body;
+                vertical-align: middle;
+            }
+
+            i {
+                display: inline-body;
+                transition: .4s;
+            }
+
+            .r180 {
+                transform: rotate(180deg);
+            }
+        }
+
+        .input-group {
+            width: 230px;
+            margin: 6px;
+
+            .input-group-addon {
+                background: #fff;
+            }
+
+            input {
+                border-left: 0;
+            }
+        }
+    }
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.5rem 0.5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 0;
+    box-shadow: inset 0 0 0 9999px
+    var(--bs-table-accent-bg);
+}
+
+.border-left {
+    border-left: 1px solid #000000;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.moll-table {
+    width: 100%;
+    border: 1px solid red;
+    th {
+        background-color: gray;
+        border: 1px solid green;
+    }
+    td {
+        border: 1px solid grey;
+    }
+}
+

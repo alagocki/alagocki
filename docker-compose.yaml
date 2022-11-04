@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+    database:
+        container_name: mariadb
+        image: mariadb:latest
+        environment:
+            MYSQL_ROOT_PASSWORD: devpass
+            MYSQL_DATABASE: la_einkauf
+            MYSQL_USER: la_einkauf
+            MYSQL_PASSWORD: devpass
+        ports:
+            - "3306:3306"
+        volumes:
+            - ${PWD}/../data/mariadb:/var/lib/mysql
+
+    mailcatcher:
+        container_name: mailcatcher
+        image: schickling/mailcatcher
+        ports:
+            - "1025:1025"
+            - "1080:1080"
