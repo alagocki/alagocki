@@ -25,5 +25,5 @@ module.exports = {
     prefix: '',
     content: [
         './templates/**/*.twig'
-    ]
+    ],
 }

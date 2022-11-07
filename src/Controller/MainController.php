@@ -18,7 +18,7 @@ use Symfony\Component\Routing\Annotation\Route;
 #[Route('')]
 class MainController extends AbstractController
 {
-    #[Route('/', name: 'Main')]
+    #[Route('/', name: 'mainpage')]
     public function mainPage(): Response
     {
         $twigVars = [
